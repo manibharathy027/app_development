@@ -1,0 +1,106 @@
+:root{
+    --x: min(100vh,100vw);
+}
+
+.SignupBorder *{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.SignupBorder button,input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    line-height: normal;
+    text-align: inherit;
+}
+.SignupBorder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://im.ezgif.com/tmp/ezgif-1-c8ae3b2b22.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.SignupBox{
+    width: 500px;
+    height: 80vh;
+    opacity:80%;
+}
+.SignupBoxTop{
+    height: 85%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    background-color: white;
+    border-radius: 20px;
+}
+.SignupBoxBottom{
+    height: 11%;
+    width: 100%;
+    margin: 2% 0;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    background-color: white;
+    border-radius: 20px;
+}
+.SignupBoxBottom span{
+    color: rgb(33, 33, 136);
+    cursor: pointer;
+}
+.SignupBoxTitle{
+    width: 90%;
+    height: 30%;
+}
+.SignupBoxTitle p{
+    font-size: 14px;
+}
+.SignupBoxTitle h2{
+    color: blue;
+}
+.SignupForm{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.SignupForm input{
+    width: 90%;
+    height: 12%;
+    margin: 3% 5%;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 17px;
+}
+.SignupForm button{
+    width: 90%;
+    height: 12%;
+    margin: 5%;
+    border-radius: 2px;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 18px;
+    background-color: rgb(11, 80, 97);
+    color: black;
+    cursor: pointer;
+}
+.SignupForm input:focus{
+    outline: none;
+}
+.SignupForm button:hover{
+    background-color: blue;
+    color: white;
+}
