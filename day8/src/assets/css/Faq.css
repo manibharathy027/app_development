@@ -1,0 +1,36 @@
+.investment-faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-item {
+    border: 1px solid #dddddd;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    background-color: #cabb78;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    font-size: larger;
+   
+  }
+  
+  .faq-answer {
+    margin-top: 5px;
+    font-size: larger;
+    
+  }
+  

@@ -1,0 +1,10 @@
+.Dashboard{
+    display: flex;
+    flex-direction: row;
+}
+.User{
+    align-items: center;
+    padding-left: 500px;
+    padding-top: 220px;
+    border-color: rgb(153, 30, 30);
+}
